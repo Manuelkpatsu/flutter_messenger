@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:fluttermessenger/constants/color_constants.dart';
+import 'package:fluttermessenger/constants/app_constants.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,9 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: AppConstants.appTitle,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: ColorConstants.themeColor,
       ),
       home: const MyHomePage(),
     );
