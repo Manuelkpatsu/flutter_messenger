@@ -24,4 +24,3 @@ class FullPhotoScreen extends StatelessWidget {
     );
   }
 }
-
