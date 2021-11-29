@@ -265,7 +265,6 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text(
           AppConstants.homeTitle,
-          style: TextStyle(color: ColorConstants.primaryColor),
         ),
         centerTitle: true,
         actions: <Widget>[buildPopupMenu()],

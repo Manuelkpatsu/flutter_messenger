@@ -151,7 +151,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
       appBar: AppBar(
         title: const Text(
           AppConstants.settingsTitle,
-          style: TextStyle(color: ColorConstants.primaryColor),
         ),
         centerTitle: true,
       ),

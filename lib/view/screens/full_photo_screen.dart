@@ -14,7 +14,6 @@ class FullPhotoScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           AppConstants.fullPhotoTitle,
-          style: TextStyle(color: ColorConstants.primaryColor),
         ),
         centerTitle: true,
       ),
